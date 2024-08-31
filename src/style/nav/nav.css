@@ -16,8 +16,11 @@
   color: #fff;
 }
 @media (max-width: 768px) {
+  .navbar-brand {
+    width: 70%;
+  }
   .navbar-brand img {
-    width: 15%;
+    width: 22%;
   }
   .navbar-toggler {
   background-color: cadetblue !important;
