@@ -1,0 +1,57 @@
+.ourFeatures {
+  margin-top: 50px;
+}
+.feature h1::after {
+  content: "OurFeatures";
+  position: absolute;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+  font-size: 135px;
+  color: #141414;
+  font-weight: 800;
+  text-shadow: -1px 0 rgba(255, 255, 255, 0.1), 0 1px rgba(255, 255, 255, 0.1),
+    1px 0 rgba(255, 255, 255, 0.1), 0 -1px rgba(255, 255, 255, 0.1);
+}
+.mainTitlelFeature h2 {
+  font-size: 44px;
+}
+.mainTitlelFeature p {
+  line-height: 2;
+  width: 80%;
+  margin: auto;
+}
+.Experts {
+  margin: 70px 0;
+}
+.Experts .type h3 {
+  transition: 0.5s;
+}
+.Experts .type:hover h3 {
+  color: #607d8bcc;
+}
+.Experts .type img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.Experts .type p {
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .titelMain h1 {
+    font-size: 35px;
+  }
+  .titelMain h1::after {
+    font-size: 40px;
+    top: -13px;
+  }
+  .mainTitlelFeature h2 {
+    font-size: 34px;
+  }
+  .mainTitlelFeature p {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: initial;
+    width: 100%;
+  }
+}

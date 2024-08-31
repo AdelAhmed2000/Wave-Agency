@@ -1,0 +1,89 @@
+.option {
+  margin-top: 50px;
+}
+.titelMain h1 {
+  font-size: 55px;
+  position: relative;
+  margin-bottom: 80px;
+}
+.supSec {
+  color: #5ac5ad;
+}
+.titelMain h1::after {
+  content: "Services";
+  position: absolute;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+  font-size: 180px;
+  color: #141414;
+  font-weight: 800;
+  text-shadow: -1px 0 rgba(255, 255, 255, 0.1), 0 1px rgba(255, 255, 255, 0.1),
+    1px 0 rgba(255, 255, 255, 0.1), 0 -1px rgba(255, 255, 255, 0.1);
+}
+.titelOption .contant {
+  border: 2px solid #12889be0;
+  padding: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 415px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.titelOption .contant:hover {
+  transform: translateY(10px);
+  border-color: #2196f3;
+}
+.titelOption .contant:hover p {
+  color: #2196f3;
+}
+.titelOption .contant svg {
+  font-size: 30px;
+}
+.titelOption .contant h3 {
+  font-weight: 700;
+  margin: 50px 0;
+  font-size: 36px;
+}
+.titelOption .contant p {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  transition: 0.5s;
+}
+
+/* Creative Team */
+.creative {
+  margin-top: 50px;
+}
+.creativeTeam h1::after {
+  content: "Creative Team";
+  position: absolute;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+  font-size: 135px;
+  color: #141414;
+  font-weight: 800;
+  text-shadow: -1px 0 rgba(255, 255, 255, 0.1), 0 1px rgba(255, 255, 255, 0.1),
+    1px 0 rgba(255, 255, 255, 0.1), 0 -1px rgba(255, 255, 255, 0.1);
+}
+.cre p {
+  transition: 0.5s;
+}
+.cre:hover p {
+  color: rgb(0 188 212 / 54%);
+}
+/* Media */
+@media (max-width: 768px) {
+  .titelOption .contant h3 {
+    font-size: 20px;
+  }
+  .titelOption .contant {
+    margin: 8px 0;
+  }
+  .cre {
+  margin-bottom: 20px;
+}
+
+}
