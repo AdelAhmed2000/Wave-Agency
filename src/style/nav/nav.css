@@ -23,7 +23,8 @@
     width: 22%;
   }
   .navbar-toggler {
-  background-color: cadetblue !important;
+  background-color: rgba(164, 217, 219, 0.907) !important;
+  color: #fff !important;
 }
 .navbar-nav {
   background-color: darkcyan;

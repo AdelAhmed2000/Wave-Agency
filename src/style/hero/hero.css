@@ -38,7 +38,7 @@
   transition: 0.5s;
 }
 .social a:hover {
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: #5f9ea0b8;
 }
 @media (max-width: 768px) {
   .infoHero .title h1 {

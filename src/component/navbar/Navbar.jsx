@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/nav/nav.css";
-import logo from "../../image/logo/WhatsApp Image 2024-08-28 at 08.35.17_a6bc88b7.jpg";
+import logo from "../../image/logo/WEB LOGO.png";
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">

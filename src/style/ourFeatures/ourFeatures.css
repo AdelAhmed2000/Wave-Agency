@@ -31,7 +31,7 @@
   color: #607d8bcc;
 }
 .Experts .type img {
-  width: 50%;
+  width: 45%;
   margin-bottom: 30px;
 }
 .Experts .type p {
@@ -42,7 +42,7 @@
     font-size: 35px;
   }
   .titelMain h1::after {
-    font-size: 40px;
+    font-size: 38px;
     top: -13px;
   }
   .mainTitlelFeature h2 {
