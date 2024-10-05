@@ -16,7 +16,7 @@ export const Contact = () => {
       <div className="contact">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-6 col-md-6 col-sm-6">
               <h4>Get In Touch</h4>
               <form>
                 <input
@@ -39,7 +39,7 @@ export const Contact = () => {
                 <button
                   className="btn btn-info mt-3"
                   type="submit"
-                  onClick ={handelSubmit}
+                  onClick={handelSubmit}
                 >
                   Send
                 </button>
@@ -52,20 +52,6 @@ export const Contact = () => {
                 <p>01090984246</p>
                 <p>Mail :</p>
                 <p>waveagency5@gmail.com</p>
-                <div className="social">
-                  <a href="#">
-                    <FaBehance />
-                  </a>
-                  <a href="#">
-                    <FaFacebookF />
-                  </a>
-                  <a href="#">
-                    <FaInstagram />
-                  </a>
-                  <a href="#">
-                    <FaLinkedinIn />
-                  </a>
-                </div>
               </div>
             </div>
           </div>

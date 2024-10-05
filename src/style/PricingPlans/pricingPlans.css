@@ -1,0 +1,113 @@
+/* Start Pricing */
+.pricing {
+  position: relative;
+}
+.pricing h1::after {
+  content: "pricing plans";
+  position: absolute;
+  left: 0;
+  top: -45px;
+  z-index: -1;
+  font-size: 135px;
+  color: #141414;
+  font-weight: 800;
+  text-shadow: -1px 0 rgba(255, 255, 255, 0.1), 0 1px rgba(255, 255, 255, 0.1),
+    1px 0 rgba(255, 255, 255, 0.1), 0 -1px rgba(255, 255, 255, 0.1);
+}
+.color1 {
+  background-color: #f2b2d7;
+}
+.color1:hover {
+  background-color: #f2b2d767;
+}
+.color2 {
+  background-color: #7fe0d7;
+}
+.color2:hover {
+  background-color: #7fe0d65f;
+}
+.color3 {
+  background-color: #ffbb00;
+}
+.color3:hover {
+  background-color: #ffbb0042;
+}
+.pricing .box {
+  position: relative;
+  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+  transition: 0.5s;
+  text-align: center;
+  color: #000;
+  margin: 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+.box:hover .price .time {
+  color: #fff;
+}
+.pricing .box:hover li {
+  color: #fff;
+}
+.pricing .box.popular .label {
+  position: absolute;
+  writing-mode: vertical-rl;
+  background-color: #777;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 35px 10px;
+  font-size: 18px;
+  right: 20px;
+  width: 40px;
+}
+.pricing .box .title {
+  font-weight: bold;
+  margin: 30px 0;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+.pricing .box img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+.pricing .box .price {
+  margin-bottom: 20px;
+}
+.pricing .box .amount {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000;
+}
+.pricing .box .time {
+  color: #777;
+}
+.pricing .box ul {
+  text-align: left;
+  list-style: none;
+}
+.pricing .box ul li {
+  transition: 0.5s;
+  padding: 20px;
+}
+.pricing .box ul li svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.pricing .box a {
+  display: block;
+  width: fit-content;
+  border: 2px solid #000;
+  color: #000;
+  margin: 30px auto 40px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.pricing .box a:hover {
+  background-color: inherit;
+  border-color: inherit;
+  color: #ddd;
+}
+/* End Pricing */

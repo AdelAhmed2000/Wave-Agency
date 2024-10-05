@@ -7,3 +7,23 @@
   color: #ddd;
   letter-spacing: 1px;
 }
+.pre-footer {
+  display: flex;
+}
+.footer ul {
+  list-style: none;
+}
+.footer .list p {
+  font-size: 15px;
+  color: cadetblue;
+  transition: 0.5s;
+}
+.footer .list-body a {
+  display: flex;
+  color: cadetblue;
+  transition: 0.5s;
+}
+.footer .list-body a:hover,
+.footer .list p:hover {
+  color: #fff;
+}

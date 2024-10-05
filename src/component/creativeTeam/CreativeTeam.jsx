@@ -20,10 +20,6 @@ export const CreativeTeam = () => {
                 <p>Video Editing</p>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 text-center cre">
-                <h4 style={{ color: "#5ac5ad" }}>Tarek Elsakhawy</h4>
-                <p>Graphic Design</p>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6 text-center cre">
                 <h4 style={{ color: "#5ac5ad" }}>Noor Sleet</h4>
                 <p>Social Media Marketing</p>
               </div>
