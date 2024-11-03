@@ -5,6 +5,7 @@ import { CreativeTeam } from "../../component/creativeTeam/CreativeTeam";
 import { Contact } from "../../component/contact/Contact";
 import { OurFeatures } from "../../component/ourFeatures/OurFeatures";
 import { PricingPlans } from "../../component/PricingPlans/PricingPlans";
+import { IconContact } from "../../component/IconContact/IconContact";
 
 export const Home = () => {
   return (

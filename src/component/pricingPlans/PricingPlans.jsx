@@ -1,6 +1,5 @@
 import React from "react";
 import "../../style/PricingPlans/pricingPlans.css";
-import { LiaChevronRightSolid } from "react-icons/lia";
 import { TiTick } from "react-icons/ti";
 
 export const PricingPlans = () => {
@@ -15,85 +14,77 @@ export const PricingPlans = () => {
           </div>
           <div className="row parent">
             <div className="col box color1">
-              <h3 className="title">Basic</h3>
-              <img src="images/hosting-basic.png" alt="" />
+              <h3 className="title">BASIC</h3>
               <div className="price">
-                <span className="amount">$15</span>
+                <span className="amount">EG 3500</span>
                 <span className="time">Per Month</span>
               </div>
               <ul>
                 <li>
                   <TiTick />
-                  10GB HDD Space
+                  Marketing Plan
                 </li>
                 <li>
-                  <TiTick />5 Email Addresses
-                </li>
-                <li>
-                  <TiTick />2 Subdomains
-                </li>
-                <li>
-                  <TiTick />4 Databases
+                  <TiTick />7 Design
                 </li>
                 <li>
                   <TiTick />
-                  Basic Support
+                  Video Reel
+                </li>
+                <li>
+                  <TiTick />8 Content
                 </li>
               </ul>
               <a href="#">Choose Plan</a>
             </div>
             <div className="col box popular color2">
               <div className="label">Most Popular</div>
-              <h3 className="title">Advanced</h3>
-              <img src="images/hosting-advanced.png" alt="" />
+              <h3 className="title">PREMIUM</h3>
               <div className="price">
-                <span className="amount">$25</span>
+                <span className="amount">EG 8500</span>
                 <span className="time">Per Month</span>
               </div>
               <ul>
                 <li>
                   <TiTick />
-                  20GB HDD Space
+                  Marketing Plan
                 </li>
                 <li>
                   <TiTick />
-                  10 Email Addresses
+                  16 Design
                 </li>
                 <li>
-                  <TiTick />5 Subdomains
-                </li>
-                <li>
-                  <TiTick />8 Databases
+                  <TiTick />3 Reel
                 </li>
                 <li>
                   <TiTick />
-                  Advanced Support
+                  19 Content
+                </li>
+                <li>
+                  <TiTick />
+                  For Free: 4 Friday Design
                 </li>
               </ul>
               <a href="#">Choose Plan</a>
             </div>
             <div className="col box color3">
-              <h3 className="title">Professional</h3>
-              <img src="images/hosting-professional.png" alt="" />
+              <h3 className="title">PRO</h3>
               <div className="price">
-                <span className="amount">$45</span>
+                <span className="amount">EG 5500</span>
                 <span className="time">Per Month</span>
               </div>
               <ul>
                 <li>
-                  <TiTick /> 50GB HDD Space
+                  <TiTick /> Marketing Plan
                 </li>
                 <li>
-                  <TiTick /> 20 Email Addresses
+                  <TiTick /> 12 Design
                 </li>
                 <li>
-                  <TiTick /> 10 Subdomains
+                  <TiTick /> 2 Video Reel
                 </li>
                 <li>
-                  <TiTick /> 20 Databases
-                </li>
-                <li>
-                  <TiTick /> Basic Support
+                  <TiTick /> 14 Content
                 </li>
               </ul>
               <a href="#">Choose Plan</a>
